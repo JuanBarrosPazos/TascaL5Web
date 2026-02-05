@@ -13,7 +13,7 @@
         <link>https://curs25-26.cifpfbmoll.eu/</link>
         <description>Descripció del canal o del lloc web</description>
         <language>ca</language>
-        <atom:link href="https://curs25-26.cifpfbmoll.eu/feed/" rel="self" type="application/rss+xml" />
+        <atom:link href="https://juanbarrospazos.github.io/TascaL5Web/CentroEducativo.xml" rel="self" type="application/rss+xml" />
 
 
         <item>
@@ -33,7 +33,7 @@
             <content:encoded>
                 <![CDATA[
                 <a href="https://curs25-26.cifpfbmoll.eu/2026/01/21/marxa-solidaria-aecc/">
-                    <img src="https://curs25-26.cifpfbmoll.eu/wp-content/uploads/2026/01/marxaCancer.png" />
+                    <img src="https://juanbarrospazos.github.io/TascaL5Web/img/marxaCancer.png" />
                 </a>
                 ]]>
             </content:encoded>
