@@ -8,9 +8,9 @@
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/" >
     
     <channel>
-        <title>Juan Barros Pruebas</title>
-        <link>https://juanbarrospazos.github.io/TascaL5Web/</link>
-        <description>Descripció del canal o del lloc web</description>
+        <title>Juan Barros Pazos. Feed</title>
+        <link>https://curs25-26.cifpfbmoll.eu/</link>
+        <description>Ejercicio L05 Lenguajes de Marcas</description>
         <language>es</language>
 
         <atom:link href="https://juanbarrospazos.github.io/TascaL5Web/CentroEducativo.xml" rel="self" type="application/rss+xml" />
@@ -32,20 +32,22 @@
             </description>
             <enclosure url="https://juanbarrospazos.github.io/TascaL5Web/img/marxaCancer.png" length="0" type="image/jpeg" />
             <author>juanbarrospazos@hotmail.es (Juan Barros Pazos)</author>
-            <category>Tecnología</category>
+            <category>Educacion</category>
             <pubDate>Wed, 04 Feb 2026 09:00:00 +0100</pubDate>
         </item>
 
         <item>
             <title>Consulta Jove: un espai de confiança</title>
-            <link>https://juanbarrospazos.github.io/TascaL5Web/www/NCine_Springsteen2.html</link>
-            <guid>https://juanbarrospazos.github.io/TascaL5Web/www/NCine_Springsteen2.html</guid>
+            <link>https://curs25-26.cifpfbmoll.eu/2026/02/02/consulta-jove/</link>
+            <guid>https://curs25-26.cifpfbmoll.eu/2026/02/02/consulta-jove/</guid>
             <description>
                 El CIFP Francesc de Borja Moll aposta per la promoció de la salut integral de l’alumnat amb la Consulta Jove, un espai d’assessorament i orientació atès per la infermera de referència del Centre de Salut Emili Darder (Palma).
                 
                 Per donar a conèixer aquest servei, la infermera ha visitat recentment diverses aules del centre per compartir informació sobre salut sexual, que han servit com a punt de partida per establir contacte directe amb l’alumnat. Unes xerrades coordinades per la Comissió de Salut del centre.
             </description>
-            <atom:link href="#" rel="self" type="application/rss+xml" />
+            <enclosure url="https://juanbarrospazos.github.io/TascaL5Web/img/ConsultaJove.png" length="0" type="image/jpeg" />
+            <author>juanbarrospazos@hotmail.es (Juan Barros Pazos)</author>
+            <category>Educacion</category>
             <pubDate>Mon, 02 Feb 2026 19:00:00 +0100</pubDate>
         </item>
 
