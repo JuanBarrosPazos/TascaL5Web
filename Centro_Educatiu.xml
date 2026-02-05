@@ -20,11 +20,6 @@
             <title>Marcha Contra el Cancer</title>
             <link>https://curs25-26.cifpfbmoll.eu/2026/01/21/marxa-solidaria-aecc/</link>
             <guid isPermaLink="false">https://curs25-26.cifpfbmoll.eu/2026/01/21/marxa-solidaria-aecc/</guid>
-            <content:encoded>
-                <![CDATA[
-    <img src="https://juanbarrospazos.github.io/TascaL5Web/img/marxaCancer.png" class="webfeedsFeaturedVisual" />
-                ]]>
-            </content:encoded>
             <description>
                 Més de quatre-cents alumnes d’FP del CIFP Francesc de Borja Moll col·laboren amb l’AECC (Associació Espanyola Contra el Càncer) amb una marxa solidària de 4 km des del nostre centre fins a la platja de Ciutat Jardí que vam fer el passat dilluns 19 de gener.
                 
@@ -35,10 +30,10 @@
                 
                 Gràcies a tots per la vostra participació malgrat la pluja!!
             </description>
-                        <author><![CDATA[juanbarrospazos@hotmail.es (Juan Barros Pazos)]]></author>
+            <enclosure url="https://juanbarrospazos.github.io/TascaL5Web/img/marxaCancer.png" length="0" type="image/jpeg" />
+            <author>juanbarrospazos@hotmail.es (Juan Barros Pazos)</author>
             <category>Tecnología</category>
             <pubDate>Wed, 04 Feb 2026 09:00:00 +0100</pubDate>
-
         </item>
 
         <item>
@@ -50,6 +45,7 @@
                 
                 Per donar a conèixer aquest servei, la infermera ha visitat recentment diverses aules del centre per compartir informació sobre salut sexual, que han servit com a punt de partida per establir contacte directe amb l’alumnat. Unes xerrades coordinades per la Comissió de Salut del centre.
             </description>
+            <atom:link href="#" rel="self" type="application/rss+xml" />
             <pubDate>Mon, 02 Feb 2026 19:00:00 +0100</pubDate>
         </item>
 
