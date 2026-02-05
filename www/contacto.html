@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="Juan Manuel Barr&oacute;s Pazos © 2025">
+    <meta name="description" content="Noticias Destacadas 2025">
+    <meta name="keywords" content="noticias, 2025, noticias destacadas">
+    <meta name="author" content="Juan Manuel Barr&oacute;s Pazos">
+    <meta name="robots" content="all, index, follow" />
+    <meta name="audience" content="All" />
+    
+    <title>Contacto</title>
+
+    <link href="../img/Icos/favicon.png" type='image/ico' rel='shortcut icon' />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen">
+    
+</head>
+
+<body>
+    <main>
+        <!--  Se definen el logo de la empresa, titulo de la página.  -->
+        <header>
+            <a href="../index.html">
+                <img class="logo" src="../img/Logos/logo.png" id="logo" alt="logo" />
+            </a>
+            <div class="header">
+                <h1>NOTICIAS CONTACTO</h1>
+            </div>
+        </header>
+
+        <!-- Se define la botonera de navegación -->
+        <nav class="menu">
+            <a href="../index.html"><button class="botonVerde">INCIO</button></a>
+            <a href="NCine.html"><button class="botonVerde">CINE</button></a>
+            <a href="NModa.html"><button class="botonVerde">MODA</button></a>
+            <a href="NPolitica.html"><button class="botonVerde">POLITICA</button></a>
+            <a href="donde.html"><button class="botonVerde">DONDE</button></a>
+        </nav>
+
+        <!-- Se definen los contenidos de la página principal -->
+        <div class="conte" >
+        <section>
+                <h3>FORMULARIO DE CONTACTO</h3>
+                <hr>
+
+            <form method="get" action="contacto.html">
+
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input autofocus id="nombre" name="nombre" pattern="[a-zA-Z\s]{3,20}" size="20" maxlength="20" tabindex="1"  required>
+                </div>
+
+                <div>
+                    <label for="apellido">Apellido: </label>
+                    <input id="apellido" name="apellido" type="text" size="20" maxlength="20" tabindex="2" required>
+                </div>
+
+                <div>
+                    <label for="mail">Email: </label>
+                    <input id="mail" name="mail" type="email" size="20" maxlength="30" tabindex="3" required>
+                </div>
+        
+                <div>
+                    <label for="telf">Tel&eacute;fono: </label>
+                    <input id="telf" name="telf" type="tel" size="20" maxlength="9" tabindex="4" required>
+                </div>
+
+                <div>
+                    <label for="interes">Inter&eacute;s:</label>
+                    <select id="interes" name="interes" style="width: 150px;" tabindex="7" required>
+                        <option value="">Tipo de Mensaje</option>
+                        <option value="Quejas">Quejas</option>
+                        <option value="Suscripcion">Suscripción</option>
+                        <option value="Noticia">Nueva Noticia</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label style="vertical-align: top;" for="coment">Comentarios:</label>
+                    <textarea id="coment" name="coment" rows="6" cols="23" maxlength="100" placeholder="Sus comentarios" required> </textarea>
+                </div>
+        
+                <div style="text-align: center;">
+                    <input id="send" name="send" type="submit" value="Enviar" tabindex="8"> 
+                </div>
+            </form>
+
+            <hr>
+            <h5>NOS PONDREMOS EN CONTACTO EN BREVE.<br>MUCHAS GRACIAS</h5>
+        
+        </section>
+
+        <!-- Se define la botonera de redes sociales -->
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="../img/Icos/IcoFacebook.png" alt="IcoFacebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/Icos/IcoTwitter.png" alt="IcoTwitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/Icos/IcoTelegram.png" alt="IcoTelegram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/Icos/IcoMap.png" alt="IcoMap">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/Icos/IcoTlf.png" alt="IcoTlf">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/Icos/IcoWhatsApp.png" alt="IcoWhatsApp">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Se define el footer -->
+        <div class="footer">
+            <a href="https://programasgratisytutoriales.blogspot.com/" target="_blank">
+                &copy; Juan Barr&oacute;s Pazos 2025/26
+            </a>
+        </div>
+
+    </main>    
+</body>
+</html>

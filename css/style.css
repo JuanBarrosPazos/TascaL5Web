@@ -1,0 +1,410 @@
+
+/*             ********            */
+/*        ESTILOS GENERALES        */
+/*             ********            */
+
+/* ESTILOS ETIQUETAS HTML */
+
+body{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #343434;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e3fbff;
+}
+table{
+    width: content;
+    max-width: 90%;
+}
+td:nth-child(2), td:last-child{
+    text-align: left;
+    padding: 0.4em;
+}
+td:nth-child(2){
+    width: 250px;
+}
+a, .menu a{  
+    color: #343434;
+    text-decoration: none;
+}
+a:hover{
+    color: #ccc;
+    text-decoration: none;
+}
+button a, button a:hover{
+    color: #343434;
+}
+
+/* FIN ESTILOS ETIQUETAS HTML */
+
+/*    ********    */
+
+/* ESTILOS COMPARTIDOS */
+
+.menu, .datos, .datosC, .footer{
+    margin: 0.2em auto 0.2em auto;
+}
+
+.header, .menu, .footer{
+    text-align: center !important;
+}
+
+/* FIN ESTILOS COMPARTIDOS */
+
+/*    ********    */
+
+/* ESTILOS INDIVIDUALES */
+
+.header{
+    margin: 0.0em 0.0em 0.2em 0.0em;
+    height: 8.0em;
+    background-image: url("../img/Logos/header-bg.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+.header h1{
+    font-size: 2.9em;
+    margin: 0px;
+    padding: 0.8em 0.2em 0.2em 0.2em;
+    color: #e3fbff !important;
+}
+.logo{
+    margin: 0.4em auto auto 0.4em;
+    float: left;
+    width: 5.4em;
+    height: auto;
+    z-index: 1000;
+}
+.menu{
+    height: 2.2em;
+}
+
+.conte{
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 0.2em 9.5em 0.2em 9.5em;
+    /*position: relative; Para colocar el footer en su sitio */
+}
+
+.datos{
+    display: block;
+    max-width: 98%;
+}
+
+.datosC{
+    display: inline-block;
+    height: 20.4em;
+    width: 32.4%;
+}
+
+.datos, .datosC{
+    border: 1px solid #02a58f;
+    border-radius: 1.2em;
+    text-align: center;
+    min-height: 12.8em;
+    overflow: hidden;
+}
+
+.datos h5, .datosC h5, .datos p, .datosC p, .datosC blockquote{
+    margin: 0.3em;
+}
+.datos p, .datosC p, .datosC blockquote{
+    text-align: justify;
+    padding: 0.2em 0.8em;
+}
+
+.datos img, table img, .datos video, .datosC img{
+    display: inline-block;
+    height: auto;
+    max-height: 5.2em;
+    margin: 0.4em auto 0.2em auto;
+    border-radius: 0.6em;
+}
+
+.conte table img{
+    max-height: 8.2em;
+
+}
+
+.datos img, .datos video{
+    max-width: 14.0em;
+    max-height: 7.4em !important;
+}
+
+.datosC img{
+   /* width: 10.0em; */
+    max-width: 10.0em;
+    min-width: 6.0em;
+}
+
+.imgOut{
+    visibility: visible;
+}
+
+.vpresent {
+    /* Video Presentacion*/
+	position: relative;
+    height: auto;
+}
+
+.datos iframe{
+    display: block;
+    margin: 1.8em auto 0.8em auto;
+    border-radius: 0.6em;
+    width: 94%;
+    min-height: 14.6em !important;
+    border: none;
+}
+
+.footer img{
+    margin: 1.2em;
+    width: 2.3em;
+    height: auto;
+}
+.footer a img {
+        opacity: 50%;
+}
+.footer a:hover img {
+    opacity: 100% !important;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer li{
+    display: inline-block;
+}
+
+/* FIN ESTILOS INDIVIDUALES */
+
+/*    ********    */
+
+/* ESTILOS BOTONES */
+
+.botonVerde {
+	background-color:  #02a58f;
+}
+.botonNaranja {
+	background-color: #fdc97a;
+}
+.botonRojo {
+	background-color: #fc6060;
+}
+.botonAzul {
+	background-color: #7db8fc;
+}
+.botonLila {
+	background-color: #dd92fd;
+}
+
+.botonVerde, .botonNaranja, .botonRojo, .botonAzul, .botonLila, select {
+    color: #343434;
+    min-width: 8.0em;
+	cursor: pointer;
+	border: none;
+	vertical-align: text-bottom;
+	margin: 0.4em;
+	padding: 5px 5px 3px 5px !important;
+	border-radius: 4px;
+    /*
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    */
+    /* velocidad transicion */
+    transition: all 1.4s ease;
+}
+/*  */
+.botonVerde:hover, .botonNaranja:hover, .botonRojo:hover, .botonAzul:hover, .botonLila:hover {
+	background-color: #fdc97a;
+    /*
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    */
+    transition: all 1.4s ease;
+  
+}
+
+/* FIN ESTILOS BOTONES */
+
+/*    ********    */
+
+/* ESTILOS FORMULARIO */
+
+    section {
+        width: fit-content;
+        margin: 0.4em;
+        margin: 0.2em auto 0.2em auto;
+        font-size: 1.0em;
+        border: none !important;
+
+    }
+
+    section hr{
+        background-color: #02a58f;
+    }
+
+    section, select{
+        transition: none !important;
+    }
+
+    section hr, input, select, textarea{
+        border: solid 1px #02a58f;
+        border-radius: 0.5em;
+    }
+        
+    div {
+        text-align: left;
+    }
+
+    label, input {
+        display: inline-block;
+        vertical-align: baseline;
+    }
+        
+    label, input, select {
+        margin: 0.3em;
+    }
+        
+    label{
+        width: 6.6em;
+        text-align: right;
+    }
+
+    input {
+        width: 14.8em;
+        padding-top: 2px;
+    }
+
+    textarea {
+        display: inline-block;
+        text-align: left !important;
+        margin-right: auto;
+        margin-left: auto;
+        margin: 1px 1px 1px 8px;
+    }
+
+/* FIN ESTILOS FORMULARIO */
+
+/*    ********    */
+
+/*          ********          */
+/*        ESTILOS MEDIA       */
+/*          ********          */
+
+@media (max-width:880px) {
+    
+    table{
+        max-width: 98%;
+        font-size: 0.9em;
+    }
+    td:first-child, td:nth-child(2){
+        vertical-align: top;
+    }
+    td:nth-child(2){
+        width: 4.0em !important;
+    }
+    table img{
+        padding-top: 1.4em;
+        max-width: 8.0em;
+    }
+    .conte, .datos, .datosC{
+        margin: 0.1em auto 0.1em auto !important;
+        max-height: auto !important;
+    }
+    .header h1{
+        font-size: 1.8em !important;
+        padding: 1.8em 0.2em 0.2em 0.2em !important;
+    }
+    .datosC .imgOut{
+        visibility: hidden !important;
+        display: none !important;
+    }
+    .datos p, .datosC p, .datosC blockquote{
+        padding: 0.1em 0.4em !important;
+    }
+    .datos img, .datos video{
+        max-width: 12.8em !important;
+    }
+    .imgOutB{
+        visibility: hidden !important;
+        display: none !important;
+        }
+    section, select{
+        font-size: 0.9em !important;
+        transition: none !important;
+        border: none;
+    }
+    .footer img{
+        margin: 0.6em !important;
+        width: 1.8em !important;
+        height: auto;
+    }
+    .footer ul{
+        padding-left: 0.0em !important;
+    }
+
+
+} /* FIN @media screen and (max-width:880px) */
+
+@media (max-width:440px) {
+    table{
+        font-size: 0.8em;
+    }
+    .header h1{
+        font-size: 1.4em !important;
+        padding: 1.6em 0.2em 0.2em 0.2em !important;
+    }
+    .conte, .datos, .datosC{
+        margin: 0.1em auto 0.1em auto !important;
+        max-height: auto !important;
+    }
+    .datos p, .datosC p, .datosC blockquote{
+        padding: 0.1em 0.4em !important;
+    }
+    .datos, .datosC{
+        width: 98.2% !important;
+    }
+    .datos img, .datos video{
+        width: 13.8em !important;
+        margin: 0.2em 0.1em;
+    }
+    .datosC img{
+        max-width: 15.8em !important;
+        }
+    .imgOut{
+        visibility: hidden !important;
+        display: none !important;
+    }
+    .datos {
+        height: auto !important;
+    }
+    .datos iframe{
+        width: 94%;
+        height: 62.4vmax !important;
+        margin: 0.8em auto 0.8em auto !important;
+    }
+    .footer img{
+        margin: 0.6em !important;
+        width: 1.6em !important;
+        height: auto;
+    }
+    .botonVerde, .botonNaranja, .botonRojo, .botonAzul, .botonLila, select {
+        font-size: 0.8em;
+        min-width: 3.0em !important;
+        margin: 0.2em !important;
+         /* velocidad transicion */
+         /* Anula las transiciones heredadas */
+         transition: none !important;
+    }
+    .botonVerde:hover, .botonNaranja:hover, .botonRojo:hover, .botonAzul:hover, .botonLila:hover {
+        background-color: #fdc97a;
+        /* Aplica la transición sólo al backgroud-color */
+        transition: background-color 1.4s ease !important;
+    }
+    section{
+        font-size: 0.8em !important;
+    }
+} /* FIN @media screen and (max-width:440px) */
