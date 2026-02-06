@@ -15,6 +15,43 @@
 
         <atom:link href="https://juanbarrospazos.github.io/TascaL5Web/CentreEducatiu.xml" rel="self" type="application/rss+xml" />
 
+        <item>
+            <title>Els alumnes de 1r de Comerç Internacional visiten l’empresa Tres Glops</title>
+            <link>https://curs25-26.cifpfbmoll.eu/2026/01/09/visita-tres-glops/</link>
+            <guid>https://curs25-26.cifpfbmoll.eu/2026/01/09/visita-tres-glops/</guid>
+            <description>
+                Amb els alumnes de 1r Curs de Comerç Internacional hem visitat l’empresa embotelladora i distribuïdora d’aigua Tres Glops.
+ 
+                En Miguel Valverde i n’Estrella ens han acompanyat i ens han anat explicant amb tot detall el recorregut logístic des de l’aprovisionament, fins als diferents cicles de  producció, embotellament, emmagatzematge i posterior distribució als punts de venda. 
+ 
+                L’empresa Tres Glops, és un projecte molt complet, ja que a part de la venda i distribució d’aigua local, destaca el projecte social que duu a terme, en tractar-se d’un Centre Especial d’Ocupació on treballen, majoritàriament persones amb discapacitat. El que ha fet que l’experiència hagi estat molt enriquidora pels nostres alumnes.
+            </description>
+            <enclosure url="https://juanbarrospazos.github.io/TascaL5Web/img/tresGlops.png" length="0" type="image/jpeg" />
+            <author>juanbarrospazos@hotmail.es (Juan Barros Pazos)</author>
+            <category>Educacion</category>
+            <pubDate>Fri, 06 Feb 2026 11:46:00 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Visitam Euskadi al Encuentro Intercentros Anatomía 4.0</title>
+            <link>
+                https://curs25-26.cifpfbmoll.eu/2026/01/08/visitam-euskadi-al-encuentro-intercentros-anatoma-40/
+            </link>
+            <guid>
+                https://curs25-26.cifpfbmoll.eu/2026/01/08/visitam-euskadi-al-encuentro-intercentros-anatoma-40/
+            </guid>
+            <description>
+                El CIFP Francesc de Borja Moll va ser seleccionat per rebre una ajuda en la convocatòria del ministeri per al desenvolupament de projectes d’innovació, recerca aplicada i transferència de coneixement en Formació Professional. Per això, part del nostre equip directiu va viatjar a Euskadi el passat desembre per participar en el «Encuentro Intercentros Anatomía 4.0». Un projecte d’innovació aplicada a l’aula d’anatomia 4.0 en els cicles d’FP de la branca sanitària.
+
+                Aquesta iniciativa, emmarcades en el Pla de Recuperació, Transformació i Resiliència finançat per la Unió Europea a través dels fons Next Generation EU, té com a objectiu impulsar la digitalització, la sostenibilitat i l’emprenedoria en l’àmbit educatiu, contribuint així a la millora de les competències professionals de l’alumnat i a la preparació per a un mercat laboral cada vegada més tecnològic.
+ 
+                El projecte «Aula d’Anatomia 4.0» es tracta d’un projecte intercentres amb la col·laboració de l’Institut Hospital del Mar FP de Barcelona i el CIFP EASO Politeknikoa del País Basc, així com l’empresa Siemens Healthineers. El seu objectiu és crear aules tecnològiques que transformin l’aprenentatge de l’anatomia i la fisiologia en els cicles formatius sanitaris, mitjançant metodologies innovadores que fomentin la participació activa de l’alumnat.
+            </description>
+            <enclosure url="https://juanbarrospazos.github.io/TascaL5Web/img/euskadi.png" length="0" type="image/jpeg" />
+            <author>juanbarrospazos@hotmail.es (Juan Barros Pazos)</author>
+            <category>Educacion</category>
+            <pubDate>Thu, 05 Feb 2026 08:00:00 +0100</pubDate>
+        </item>
 
         <item>
             <title>Marcha Contra el Cancer</title>
@@ -36,6 +73,7 @@
             <pubDate>Wed, 04 Feb 2026 09:00:00 +0100</pubDate>
         </item>
 
+
         <item>
             <title>Consulta Jove: un espai de confiança</title>
             <link>https://curs25-26.cifpfbmoll.eu/2026/02/02/consulta-jove/</link>
@@ -50,8 +88,6 @@
             <category>Educacion</category>
             <pubDate>Mon, 02 Feb 2026 19:00:00 +0100</pubDate>
         </item>
-
-    <!-- Més <item> si vols incloure altres notícies o entrades... -->
 
     </channel>
 </rss>
